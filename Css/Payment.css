@@ -1,0 +1,43 @@
+/* Targeting page3 */
+-page3 {
+    overflow: hidden;
+    padding: 170px 10% 240px 10%;
+}
+
+/* Styles for .payment */
+.payment h1 {
+    max-width: none;
+    margin-bottom: 30px;
+}
+
+.payment p {
+    margin-bottom: 0;
+}
+
+.payment h3 {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+}
+
+.text {
+    position: relative;
+}
+
+/* Styles for .pay */
+.pay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    width: 1450px;
+}
+
+/* Styles for .flex-pay */
+.flex-pay {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 35px;
+}

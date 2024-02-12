@@ -18,6 +18,7 @@
     height: 400px;
     z-index: 5;
     transition: .7s linear .3s;
+    margin: auto;
 }
 
 .cube {
@@ -88,4 +89,29 @@
     transform: rotateX(90deg) translateZ(-400px);
     border-radius: 10px;
     transition: .3s linear .3s
+}
+.cube-open:hover .cube-light span {
+    transform: rotateY(calc(90deg var(--i))) translateZ(200px);
+}
+
+.cube-open:hover .box-top {
+    top: 30%;
+}
+
+.cube-open:hover .box-footer {
+    top: -50%;
+}
+
+.black-square {
+    content: "";
+    position: absolute;
+    left: -100px;
+    top: 130%;
+    height: 160px;
+    width: 190px;
+    border-radius: 5px;
+    z-index: -2;
+    transform: translateY(-50%) matrix3d(1, 0, 0, -0.008, 0, 1, 0, 0.01, 0, 0, 1, 0, 0, 0, 0, 2);
+    background: transparent;
+    box-shadow: 0px 0px 20px #219cf3, 0px 2px 16px #219bf3, inset -8px 8px 10px #3e5ec2, inset 5px -6px 17px #125f73;
 }
