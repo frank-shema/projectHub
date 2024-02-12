@@ -33,6 +33,16 @@
     animation: cube 15s linear infinite;
 }
 
+@keyframes cube {
+    0% {
+        transform: rotateX(-28deg) rotateY(8deg) rotate(0);
+    }
+    100% {
+        transform: rotateX(-20deg) rotateY(360deg) rotate(360deg);
+    }
+}
+
+
 .cube-light {
     position: absolute;
     left: 0;
@@ -40,4 +50,42 @@
     height: 100%;
     width: 100%;
     transform-style: preserve-3d;
+}
+
+.cube-light span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: rotateY(calc(98deg * var(--i))) translateZ(100px);
+    background: linear-gradient(#c3e8ff, #7accff);
+    border-radius: 10px;
+    transition: 0.3s linear 0.35s;
+}
+
+.box-top {
+    position: absolute;
+    left: 0;
+    top: 130%;
+    height: 200px;
+    width: 200px;
+    background: #7accff;
+    box-shadow: inset 0px 0px 50px #c3e8ff, inset 0px 2px 20px #219cf3;
+    transform: rotateX(90deg) translateZ(360px);
+    border-radius: 10px;
+    transition: .3s linear .3s;
+}
+
+.box-footer {
+    position: absolute;
+    left: 0;
+    top: -150%;
+    height: 200px;
+    width: 200px;
+    background: #7accff;
+    box-shadow: inset 0px 0px 50px #c3e8ff, inset 0px 2px 20px #219cf3;
+    transform: rotateX(90deg) translateZ(-400px);
+    border-radius: 10px;
+    transition: .3s linear .3s
 }
