@@ -253,13 +253,19 @@
             inset 0px -5px 12px #3e5ec2,
             inset 8px 5px 15px #653ec2;
     }
-    48%,
+    40%{
+        box-shadow: 
+        7px -7px 20px #21d0f3,
+        -6px 7px 15px #653ec2,
+        inset 8px -11px 12px #3e5ec2,
+        inset -8px 5px 10px #653ec2;
+    }
     60% {
         box-shadow: 
             7px -7px 20px #21d0f3,
             -6px 7px 15px #653ec2,
             inset 8px -11px 12px #3e5ec2,
-            inset -8px 5px 10px #653ec2;
+            inset 5px -6px 10px #653ec2;
     }
     75% {
         box-shadow: 
