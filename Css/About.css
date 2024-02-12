@@ -30,6 +30,7 @@
     transform-style: preserve-3d;
     background: transparent;
     transition: .9s linear .3s;
+    animation: cube 15s linear infinite;
 }
 
 .cube-light {
