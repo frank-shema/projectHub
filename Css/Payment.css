@@ -236,3 +236,43 @@
     animation: shadow2 11s ease-in-out forwards infinite;
 
 }
+
+
+@keyframes shadow2 {
+    0% {
+        box-shadow: 
+            0px 0px 18px #21d0f3,
+            6px 5px 9px #653ec2,
+            inset 0px -5px 12px #3e5ec2,
+            inset 8px 5px 15px #653ec2;
+    }
+    25% {
+        box-shadow: 
+            0px 0px 10px #21d0f3,
+            6px 5px 9px #653ec2,
+            inset 0px -5px 12px #3e5ec2,
+            inset 8px 5px 15px #653ec2;
+    }
+    48%,
+    60% {
+        box-shadow: 
+            7px -7px 20px #21d0f3,
+            -6px 7px 15px #653ec2,
+            inset 8px -11px 12px #3e5ec2,
+            inset -8px 5px 10px #653ec2;
+    }
+    75% {
+        box-shadow: 
+            -7px 7px 20px #21d0f3,
+            6px 7px 15px #6530c2,
+            inset 8px 8px 12px #3e5ec2,
+            inset -8px 5px 10px #6530c2;
+    }
+    100% {
+        box-shadow: 
+            0px 0px 18px #21dbf3,
+            6px 5px 9px #653ec2,
+            inset 0px 5px 12px,
+            inset 8px 5px 15px #6350c2;
+    }
+}
