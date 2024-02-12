@@ -159,26 +159,26 @@
 }
 
 .line-box5 {
-    top: 36%;
-    left: 60%;
-    transform: translate(-50%, -50%) rotate(325deg);
+    top: 37%;
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(35deg);
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
 }
 .line-box6 {
-    top: 36%;
-    left: 60%;
-    transform: translate(-50%, -50%) rotate(325deg);
+    top: 14%;
+    left: 58%;
+    transform: translate(-50%, -50%) ;
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
 }
 .line-box7 {
-    top: 36%;
-    left: 60%;
-    transform: translate(-50%, -50%) rotate(325deg);
+    top: 68%;
+    left: 61%;
+    transform: translate(-50%, -50%) rotate(333deg);
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
 }
 .line-box8 {
-    top: 36%;
-    left: 60%;
+    top: 85%;
+    left: 62%;
     transform: translate(-50%, -50%) rotate(325deg);
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
 }
