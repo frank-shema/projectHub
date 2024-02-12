@@ -134,7 +134,7 @@
     height: 40px;
     z-index: -3;
     transition: 0.95s cubic-bezier(0.6, 0.15, 0, 0.74) 0.5s;
-    animation: shadow 11s ease-in-out forwards infinite;
+    animation: shadow 7s ease-in-out forwards infinite;
 
 }
 
@@ -143,7 +143,7 @@
     top: 68%;
     left: 25%;
     transform: translate(-50%, -50%) rotate(36deg);
-    animation: shadow 11s ease-in-out forwards infinite;
+    animation: shadow 9.5s ease-in-out forwards infinite;
 
 }
 
@@ -200,6 +200,8 @@
     left: 60%;
     transform: translate(-50%, -50%) rotate(325deg);
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+    animation: shadow2 9s ease-in-out forwards infinite;
+    
 }
 
 .line-box5 {
@@ -207,22 +209,30 @@
     left: 62%;
     transform: translate(-50%, -50%) rotate(35deg);
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+    animation: shadow2 9.5s ease-in-out forwards infinite;
+
 }
 .line-box6 {
     top: 14%;
     left: 58%;
     transform: translate(-50%, -50%) ;
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+    animation: shadow2 10s ease-in-out forwards infinite;
+
 }
 .line-box7 {
     top: 68%;
     left: 61%;
     transform: translate(-50%, -50%) rotate(333deg);
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+    animation: shadow2 10.5s ease-in-out forwards infinite;
+
 }
 .line-box8 {
     top: 85%;
     left: 62%;
     transform: translate(-50%, -50%) ;
     box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+    animation: shadow2 11s ease-in-out forwards infinite;
+
 }
