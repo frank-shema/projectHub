@@ -27,7 +27,7 @@
 /* Styles for .pay */
 .pay {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 50px;
     position: relative;
@@ -40,4 +40,86 @@
     flex-direction: column;
     position: relative;
     gap: 35px;
+}
+
+/* Styles for .box1 */
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7 {
+    background: #14182b;
+    box-shadow: 0px 0px 18px #21def3, 0px 0px 16px #219bf3, inset -8px 8px 10px #3e5ec2, inset 5px -6px 17px #125f73;
+    border-radius: 20px;
+    padding: 30px;
+    width: 275px;
+    height: 175px;
+    cursor: pointer;
+    transition: 0.45s cubic-bezier(0.6, 0.15, 0, 0.74);
+}
+
+/* Hover effect for .box1 to .box7 */
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover,
+.box7:hover {
+    transform: scale(1.2);
+}
+
+/* Styles for .box2, .box3, .box4 */
+.box2,
+.box3,
+.box4 {
+    background: #641e69;
+    box-shadow: 0px 0px 18px #f321de, 8px 0px 16px #ca21f3, inset 7px -8px 10px #c23ebe, inset -5px 2px 17px #1b1273;
+}
+
+/* Styles for .box5, .box6, .box7 */
+.box5,
+.box6,
+.box7 {
+    background: #1f0a50;
+    box-shadow: 0px 0px 5px #219cf3, 8px 8px 7px #219cf3, inset 15px -10px 16px #653ec2, inset -5px 2px 17px #124b73;
+}
+
+/* Styles for paragraphs inside .box1 to .box7 */
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.box5 p,
+.box6 p,
+.box7 p {
+    color: white;
+    font-size: 1.0rem;
+    max-width: none;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/* Styles for lines (.line-box1 to .line-box7, .line-boxa) */
+.line-box1,
+.line-box2,
+.line-box3,
+.line-box4,
+.line-box5,
+.line-box6,
+.line-box7,
+.line-box8 {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    box-shadow: 0px 0px 18px #21d0f3, 3px 4px 9px #f321de, inset 0px -5px 12px #3e5ec2, inset 0px 1px 15px #f321de;
+    width: 450px;
+    height: 40px;
+    z-index: -3;
+    transition: 0.95s cubic-bezier(0.6, 0.15, 0, 0.74) 0.5s;
 }
