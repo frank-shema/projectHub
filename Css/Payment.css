@@ -282,3 +282,35 @@
             inset 8px 5px 15px #6350c2;
     }
 }
+
+/* Styles for .box-icon */
+.box-icon {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+/* Styles for .box-click1 to .box-click6 */
+.box-click1,
+.box-click2,
+.box-click3,
+.box-click4,
+.box-click5,
+.box-click6,
+.box-click7 {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: -3;
+    transition: 1.1s cubic-bezier(0.6, 0.15, 0, 0.74) .5s;
+}
+
+/* Styles for .text */
+.text {
+    display: none;
+}
