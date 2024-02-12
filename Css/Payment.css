@@ -1,31 +1,37 @@
 /* Targeting page3 */
--page3 {
+-page3 
+{
     overflow: hidden;
     padding: 170px 10% 240px 10%;
 }
 
 /* Styles for .payment */
-.payment h1 {
+.payment h1 
+{
     max-width: none;
     margin-bottom: 30px;
 }
 
-.payment p {
+.payment p 
+{
     margin-bottom: 0;
 }
 
-.payment h3 {
+.payment h3 
+{
     font-size: 1.3rem;
     color: white;
     font-weight: 500;
 }
 
-.text {
+.text 
+{
     position: relative;
 }
 
 /* Styles for .pay */
-.pay {
+.pay 
+{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -35,7 +41,8 @@
 }
 
 /* Styles for .flex-pay */
-.flex-pay {
+.flex-pay 
+{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -51,7 +58,10 @@
 .box6,
 .box7 {
     background: #14182b;
-    box-shadow: 0px 0px 18px #21def3, 0px 0px 16px #219bf3, inset -8px 8px 10px #3e5ec2, inset 5px -6px 17px #125f73;
+    box-shadow: 0px 0px 18px #21def3, 
+    0px 0px 16px #219bf3, 
+    inset -8px 8px 10px #3e5ec2,
+     inset 5px -6px 17px #125f73;
     border-radius: 20px;
     padding: 30px;
     width: 275px;
@@ -94,7 +104,8 @@
 .box4 p,
 .box5 p,
 .box6 p,
-.box7 p {
+.box7 p 
+{
     color: white;
     font-size: 1.0rem;
     max-width: none;
@@ -110,7 +121,8 @@
 .line-box5,
 .line-box6,
 .line-box7,
-.line-box8 {
+.line-box8 
+{
     content: '';
     position: absolute;
     top: 50%;
@@ -122,4 +134,51 @@
     height: 40px;
     z-index: -3;
     transition: 0.95s cubic-bezier(0.6, 0.15, 0, 0.74) 0.5s;
+}
+
+/* Styles for .line-box2 */
+.line-box2 {
+    top: 68%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(36deg);
+}
+
+/* Styles for .line-box3 */
+.line-box3 {
+    top: 26%;
+    left: 28%;
+    transform: translate(-50%, -50%) rotate(325deg);
+}
+
+/* Styles for .line-box4 */
+.line-box4 {
+    top: 36%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(325deg);
+    box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+}
+
+.line-box5 {
+    top: 36%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(325deg);
+    box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+}
+.line-box6 {
+    top: 36%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(325deg);
+    box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+}
+.line-box7 {
+    top: 36%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(325deg);
+    box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
+}
+.line-box8 {
+    top: 36%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(325deg);
+    box-shadow: 0px 0px 18px #21d0f3, 6px 5px 9px #653ec2, inset 8px -5px 12px #3e5ec2, inset 8px 5px 15px #653ec2;
 }
